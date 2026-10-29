@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  VITE_SUPABASE_URL = "https://gicktmnwowxagooiizap.supabase.co"
 
 # Faz todas as rotas (ex.: /o/abc123) abrirem o app React
 [[redirects]]
