@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Faz todas as rotas (ex.: /o/abc123) abrirem o app React
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
